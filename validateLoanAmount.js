@@ -3,6 +3,7 @@ $ = skuid.$;
 var app=skuid.model.getModel('Application');
 var applicationData=app.getFirstRow();
 
+
 var displayMessage = function (message, severity) {
     console.log(message);
     console.log(severity);
