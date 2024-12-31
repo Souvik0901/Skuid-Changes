@@ -1,6 +1,7 @@
 var params = arguments[0],
 	$ = skuid.$;
 
+
 // Fetch Application Data
 var applicationModel = skuid.model.getModel('MyPersonalDetails');
 var applicationData = applicationModel.getFirstRow();
