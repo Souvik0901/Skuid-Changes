@@ -23,6 +23,7 @@ var displayMessage = function (message, severity) {
     return false;
 };
 
+
 ///*********************************************** FOR LMAU -1720 ******************************************/
 if(applicationData.Insurance_Rebate_Amount__c !== null && applicationData.Insurance_Rebate_Amount__c !== undefined){
    if((applicationData.Top_Up__c === true) && ((applicationData.Top_Up_Payout_Amount__c).toFixed(2) !== ((applicationData.CL_Contract__r.loan__Pay_Off_Amount_As_Of_Today__c - applicationData.Insurance_Rebate_Amount__c + 100).toFixed(2)))){
